@@ -22,7 +22,10 @@ class MainActivity : AppCompatActivity() {
 
             if (inputId == "admin@test.com" && inputPw == "qwer") {
 
-                Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+//                관리자 이름을 변수에 임시저장
+                val name = "김지은"
+
+                Toast.makeText(this, "${name}관리자입니다.", Toast.LENGTH_SHORT).show()
 
             }
             else{
